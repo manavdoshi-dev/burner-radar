@@ -7,8 +7,9 @@ Existing community lists rot. Mailinator alone rotates through hundreds of front
 ## What you get
 
 - `data/domains.txt`: one domain per line, sorted, ready to drop into any signup-form blocklist
-- `data/domains.json`: same domains with metadata (first seen, last seen alive, sources, confidence)
-- A GitHub Actions workflow that rebuilds both files daily
+- `data/domains.json`: same domains with metadata (first seen, last seen alive, sources, parent service, confidence)
+- `data/services.json`: each known burner service grouped with every frontend domain we have linked to it via MX fingerprinting
+- A GitHub Actions workflow that rebuilds all three daily
 
 ## Why it exists
 
@@ -38,9 +39,10 @@ The collector runs three passes:
 
 1. **Community ingest.** Pulls from a curated set of existing disposable-email lists on GitHub, merges them, and treats each list as a low-weight signal.
 2. **Seed expansion.** A hand-maintained list of known burner services (Mailinator, Guerrilla Mail, Temp-Mail, YOPmail, and so on) anchors the dataset. Their MX records are recorded and used as fingerprints.
-3. **Liveness check.** Every candidate domain gets an MX lookup. Domains with no MX, or MX pointing to known-dead infrastructure, are dropped. Domains whose MX matches a known burner service inherit that classification.
+3. **Liveness check.** Every candidate domain gets an MX lookup. Domains with no MX are dropped.
+4. **MX fingerprinting.** Each seed service contributes an MX signature (the registrable domain of its mail servers). Any candidate whose MX signature matches a known service is labelled as a frontend for that service. The current build links over 2,000 community-listed domains to a parent service this way, including 1,249 Temp-Mail rotations and 225 Mailinator frontends that the upstream community lists do not tag.
 
-Each domain ends up with a confidence score based on how many independent signals agreed.
+Each domain ends up with a confidence score based on how many independent signals agreed (sources, live MX, fingerprint match).
 
 ## Roadmap
 

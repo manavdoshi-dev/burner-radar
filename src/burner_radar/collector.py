@@ -4,8 +4,10 @@ build() does, in order:
   1. Pull each community source, normalize each line/entry to a domain.
   2. Merge with the hardcoded seed list.
   3. MX-probe every candidate. Drop domains with no MX (cannot receive mail).
-  4. Score each domain by number of independent sources that agreed.
-  5. Write data/domains.txt and data/domains.json.
+  4. Build an MX-signature index from seed services and classify every
+     domain whose MX signature matches a known service.
+  5. Score each domain by number of independent sources that agreed.
+  6. Write data/domains.txt, data/domains.json, data/services.json.
 """
 
 from __future__ import annotations
@@ -18,6 +20,7 @@ from pathlib import Path
 
 import requests
 
+from .fingerprint import build_signature_index, classify, group_by_service
 from .seeds import SEED_DOMAINS
 from .sources import SOURCES, Source
 from .validate import normalize, probe_many
@@ -28,15 +31,18 @@ class DomainRecord:
     domain: str
     sources: set[str] = field(default_factory=set)
     mx: list[str] = field(default_factory=list)
+    service: str | None = None
     first_seen: str = ""
     last_seen_alive: str = ""
 
     @property
     def confidence(self) -> float:
-        # 0.5 floor for any single source. Each additional source adds 0.1, capped at 1.0.
-        # Live MX adds 0.2.
+        # 0.5 floor for any single source. Each additional source adds 0.1.
+        # Live MX adds 0.2. Service fingerprint match adds 0.2.
         score = 0.5 + 0.1 * max(0, len(self.sources) - 1)
         if self.mx:
+            score += 0.2
+        if self.service:
             score += 0.2
         return round(min(score, 1.0), 2)
 
@@ -45,6 +51,7 @@ class DomainRecord:
             "domain": self.domain,
             "sources": sorted(self.sources),
             "mx": self.mx,
+            "service": self.service,
             "first_seen": self.first_seen,
             "last_seen_alive": self.last_seen_alive,
             "confidence": self.confidence,
@@ -76,6 +83,7 @@ def build(data_dir: Path) -> dict:
     now = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     json_path = data_dir / "domains.json"
     txt_path = data_dir / "domains.txt"
+    services_path = data_dir / "services.json"
 
     previous = _load_existing(json_path)
     records: dict[str, DomainRecord] = {}
@@ -125,8 +133,15 @@ def build(data_dir: Path) -> dict:
             rec.last_seen_alive = now
             alive += 1
 
+    sig_index = build_signature_index(mx_results)
+    print(f"[info] built signature index from {len(sig_index)} known services")
+    labels = classify(mx_results, sig_index)
+    for domain, service in labels.items():
+        records[domain].service = service
+    print(f"[info] classified {len(labels)} domains via MX fingerprinting")
+
     final = {d: r for d, r in records.items() if r.mx or "burner-radar/seeds" in r.sources}
-    print(f"[info] {alive} domains have live MX; keeping {len(final)} after liveness filter")
+    print(f"[info] keeping {len(final)} domains after liveness filter ({alive} with live MX)")
 
     sorted_domains = sorted(final.keys())
     txt_path.write_text("\n".join(sorted_domains) + "\n", encoding="utf-8")
@@ -135,8 +150,19 @@ def build(data_dir: Path) -> dict:
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "count": len(sorted_domains),
         "source_counts": dict(source_counts),
+        "classified_count": len(labels),
         "domains": [final[d].to_json() for d in sorted_domains],
     }
     json_path.write_text(json.dumps(payload, indent=2, sort_keys=False), encoding="utf-8")
 
-    return {"count": len(sorted_domains), "alive": alive}
+    groups = group_by_service({d: r.service for d, r in final.items() if r.service})
+    services_payload = {
+        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "services": [
+            {"service": svc, "domain_count": len(domains), "domains": domains}
+            for svc, domains in groups.items()
+        ],
+    }
+    services_path.write_text(json.dumps(services_payload, indent=2), encoding="utf-8")
+
+    return {"count": len(sorted_domains), "alive": alive, "classified": len(labels)}
