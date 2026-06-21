@@ -26,6 +26,9 @@ jobs:
       - name: Rebuild dataset
         run: python -m burner_radar build
 
+      - name: Sync dataset into packages
+        run: python scripts/sync_packages.py
+
       - name: Commit changes
         run: |
           git config user.name "burner-radar-bot"

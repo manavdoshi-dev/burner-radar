@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "burner-radar-data"
+version = "0.1.0"
+description = "Continuously-updated database of disposable email domains, with a tiny API."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Manav Doshi" }]
+keywords = ["email", "disposable", "burner", "tempmail", "validation", "security", "fraud"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Security",
+    "Topic :: Communications :: Email",
+]
+
+[project.urls]
+Homepage = "https://github.com/manavdoshi-dev/burner-radar"
+Repository = "https://github.com/manavdoshi-dev/burner-radar"
+Issues = "https://github.com/manavdoshi-dev/burner-radar/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+burner_radar_data = ["data/*.txt", "data/*.json"]

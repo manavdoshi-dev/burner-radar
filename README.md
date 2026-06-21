@@ -17,17 +17,35 @@ Every product with a signup form fights the same battle: free-trial abuse, fake 
 
 ## Use it
 
-Drop the list into your signup validation:
+### Python
 
-```python
-disposable = set(open("data/domains.txt").read().splitlines())
-
-def is_disposable(email: str) -> bool:
-    domain = email.rsplit("@", 1)[-1].lower().strip()
-    return domain in disposable
+```bash
+pip install burner-radar-data
 ```
 
-Or pull it straight from GitHub:
+```python
+from burner_radar_data import is_disposable, get_service
+
+is_disposable("foo@mailinator.com")   # True
+get_service("foo@mailinator.com")     # "mailinator"
+```
+
+### Node / TypeScript
+
+```bash
+npm install burner-radar-data
+```
+
+```ts
+import { isDisposable, getService } from "burner-radar-data";
+
+isDisposable("foo@mailinator.com");   // true
+getService("foo@mailinator.com");     // "mailinator"
+```
+
+### Raw data
+
+Pull the list straight from GitHub if you want to vendor or proxy it:
 
 ```bash
 curl -sSL https://raw.githubusercontent.com/manavdoshi-dev/burner-radar/main/data/domains.txt
@@ -44,12 +62,22 @@ The collector runs three passes:
 
 Each domain ends up with a confidence score based on how many independent signals agreed (sources, live MX, fingerprint match).
 
+## Repo layout
+
+```
+data/                  Canonical dataset, rebuilt daily
+src/burner_radar/      Collection pipeline
+packages/python/       burner-radar-data on PyPI
+packages/npm/          burner-radar-data on npm
+scripts/sync_packages.py   Copies /data into each package before release
+.github/workflows/     Daily rebuild + tag-driven package release
+```
+
 ## Roadmap
 
 - Passive-DNS-based discovery of new domains sharing MX records with known burner services
 - Certificate Transparency log monitoring for new domains matching burner naming patterns
-- A free public API with rate limiting
-- A tiny npm and pip package wrapping the data with a local cache
+- A free public HTTP API with rate limiting
 
 ## License
 
