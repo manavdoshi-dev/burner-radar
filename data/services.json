@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T10:50:43.281337+00:00",
+  "generated_at": "2026-09-15T10:15:39.132892+00:00",
   "services": [
     {
       "service": "10minutemail",
@@ -10,7 +10,7 @@
     },
     {
       "service": "anonymbox",
-      "domain_count": 160,
+      "domain_count": 159,
       "domains": [
         "10minutemail.de",
         "129.in",
@@ -112,7 +112,6 @@
         "noemail.com",
         "notmail.com",
         "onedonation.com",
-        "onespeles.ru",
         "onestopwv.com",
         "openinboxexperiment.com",
         "optonlinr.net",
@@ -250,7 +249,7 @@
     },
     {
       "service": "mailinator",
-      "domain_count": 220,
+      "domain_count": 219,
       "domains": [
         "00.pe",
         "183carlton.changeip.net",
@@ -332,7 +331,6 @@
         "hackthatbit.ch",
         "hostmonitor.net",
         "hypori.us",
-        "ignoremail.com",
         "informationispower.co.uk",
         "ioio.eu",
         "ironiebehindert.de",
@@ -505,7 +503,7 @@
     },
     {
       "service": "owlymail",
-      "domain_count": 472,
+      "domain_count": 475,
       "domains": [
         "0sp.me",
         "0xmiikee.com",
@@ -547,6 +545,8 @@
         "artropad.net",
         "asteron.info",
         "astro4d.com",
+        "astro4d.net",
+        "astrotogel.net",
         "ayohave.fun",
         "azureexplained.com",
         "backspace.nyc",
@@ -811,6 +811,7 @@
         "newo.site",
         "newtempmail.com",
         "nhaxinh.xyz",
+        "nhumaitravel.com",
         "nj3dprinting.com",
         "nmptev.xyz",
         "nomailthanks.com",
@@ -1053,7 +1054,7 @@
     },
     {
       "service": "tempmail",
-      "domain_count": 1312,
+      "domain_count": 1315,
       "domains": [
         "0-mail.com",
         "000476.com",
@@ -1143,6 +1144,7 @@
         "antonietta1818.site",
         "appie.com",
         "applynow0.com",
+        "arapgege.app",
         "artsdigi.store",
         "arvadalandsurveying.com",
         "asapcctv.com",
@@ -1537,6 +1539,7 @@
         "gregoria1818.site",
         "grimstroke.me",
         "gty.com",
+        "gumaygo.com",
         "h0tmaii.com",
         "hacken.company",
         "hacker9.org",
@@ -1700,7 +1703,6 @@
         "lala-mailbox.club",
         "lauxanh.live",
         "lazymail.win",
-        "ldaho.biz",
         "leadingway.com",
         "leeching.net",
         "leviosaa.store",
@@ -1728,6 +1730,7 @@
         "loveandotherstuff.co",
         "lovecalculatorname.org",
         "lovefans.com",
+        "lovelynhatrang.ru",
         "loveu.com",
         "lppgurindam.com",
         "ltuc.edu.eu.org",
@@ -1826,6 +1829,7 @@
         "muahetbienhoa.com",
         "mui.cc.cd",
         "multiscanner.org",
+        "mumbama.com",
         "musiccode.me",
         "muzan.me",
         "mybridesguide.com",
@@ -1945,7 +1949,6 @@
         "pig.pp.ua",
         "piggybankcrypto.org",
         "pimeariver.com",
-        "pinkgreengenerator.me",
         "pipecutting.com",
         "placemail.online",
         "planmy.menu",
@@ -2057,6 +2060,7 @@
         "shoppingteam.info",
         "shopvpn.uk",
         "siberiancontext.online",
+        "sicstocks.com",
         "signalxp.com",
         "sikdar.site",
         "silvercoin.life",
@@ -2199,6 +2203,7 @@
         "tnbeta.com",
         "tokojawa.top",
         "tokyo.edu.pl",
+        "tonycuffe.com",
         "toolsig.team",
         "toppieter.com",
         "totobet.club",
@@ -2316,7 +2321,6 @@
         "xeon-e3.ovh",
         "xfamiliar9.com",
         "xgnowherei.com",
-        "xlcsh.icu",
         "xn--5nx.cc",
         "xolox.xyz",
         "xrap.de",
