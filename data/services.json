@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T10:57:59.502783+00:00",
+  "generated_at": "2026-09-22T10:07:50.270308+00:00",
   "services": [
     {
       "service": "10minutemail",
@@ -249,7 +249,7 @@
     },
     {
       "service": "mailinator",
-      "domain_count": 218,
+      "domain_count": 217,
       "domains": [
         "00.pe",
         "183carlton.changeip.net",
@@ -425,7 +425,6 @@
         "spam.janlugt.nl",
         "spam.jasonpearce.com",
         "spam.lucatnt.com",
-        "spam.lyceum-life.com.ru",
         "spam.mccrew.com",
         "spam.netpirates.net",
         "spam.no-ip.net",
@@ -560,7 +559,6 @@
         "bebekpenyet.buzz",
         "beeveedigital.com",
         "bembembem.com",
-        "bestcodingbooks.com",
         "bestsaid.net",
         "betbola88.biz",
         "betforward.poker",
@@ -620,6 +618,7 @@
         "cobrei.app",
         "codegency.com",
         "codix.site",
+        "codun.site",
         "coinlez.com",
         "commongroundky.com",
         "companykeyword.com",
@@ -629,7 +628,6 @@
         "craftymall.com",
         "crapcoin.com",
         "crowdlegal.org",
-        "crturner.com",
         "crypto-net.club",
         "cryptotravis.com",
         "customcardmaker.com",
@@ -702,6 +700,7 @@
         "heavymetalparkinglot.net",
         "helpi.club",
         "highbeam.io",
+        "hoanglantuvi.com",
         "homecleaningreviews.com",
         "honk.network",
         "hosttitan.net",
@@ -771,7 +770,6 @@
         "markcronje.com",
         "markmail.site",
         "mattbrock.com",
-        "maxmindeducation.com",
         "mayorpoker.net",
         "mc-17.com",
         "mcgrathhvac.com",
@@ -868,6 +866,7 @@
         "ricimail.com",
         "ridesharedriver.org",
         "riotap.com",
+        "rnwknis.com",
         "rollindo.agency",
         "russiarp04.online",
         "sagame.cash",
@@ -962,6 +961,7 @@
         "wickmail.net",
         "wmqrhabits.com",
         "writeme.us",
+        "wrld.community",
         "wufuya.com",
         "xenzld.com",
         "xgold.fun",
@@ -970,7 +970,6 @@
         "youtubeabonesatinal.net",
         "yreilof.xyz",
         "ysbnkz.com",
-        "zane.is",
         "zapzapcloud.com",
         "zerodog.icu",
         "zipx.site",
@@ -1049,7 +1048,7 @@
     },
     {
       "service": "tempmail",
-      "domain_count": 1327,
+      "domain_count": 1325,
       "domains": [
         "0-mail.com",
         "000476.com",
@@ -1130,7 +1129,6 @@
         "amsspecialist.com",
         "andersenco.com",
         "andreshampel.com",
-        "andyes.net",
         "animalavianhospital.com",
         "anindyasen.com",
         "anjay.id",
@@ -1388,7 +1386,6 @@
         "easyrecipetoday.com",
         "ebbrands.com",
         "edenbrides.com",
-        "editoraprilianti.biz",
         "edshol.net",
         "edus.edu.pl",
         "eeemail.win",
@@ -2475,7 +2472,7 @@
     },
     {
       "service": "yopmail",
-      "domain_count": 107,
+      "domain_count": 108,
       "domains": [
         "0cd.cn",
         "adgloselche.esmtp.biz",
@@ -2583,6 +2580,7 @@
         "ywzmb.top",
         "zeropolly.com",
         "zinfighkildo.ftpserver.biz",
+        "zooki.xyz",
         "zx81.ovh"
       ]
     }
