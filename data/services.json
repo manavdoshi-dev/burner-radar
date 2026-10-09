@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T12:13:43.106136+00:00",
+  "generated_at": "2026-10-09T12:04:57.718014+00:00",
   "services": [
     {
       "service": "10minutemail",
@@ -10,7 +10,7 @@
     },
     {
       "service": "anonymbox",
-      "domain_count": 158,
+      "domain_count": 156,
       "domains": [
         "10minutemail.de",
         "129.in",
@@ -91,7 +91,6 @@
         "kronedigits.ru",
         "lagniappe-restaurant.com",
         "lancekellar.com",
-        "latestcnnnews.com",
         "linozemtseva.com",
         "llllll.com",
         "maal.com",
@@ -110,7 +109,6 @@
         "nonewanimallab.com",
         "notmail.com",
         "onedonation.com",
-        "onespeles.ru",
         "onestopwv.com",
         "openinboxexperiment.com",
         "optonlinr.net",
@@ -498,7 +496,7 @@
     },
     {
       "service": "owlymail",
-      "domain_count": 472,
+      "domain_count": 474,
       "domains": [
         "0sp.me",
         "0xmiikee.com",
@@ -525,6 +523,7 @@
         "ahliqq.org",
         "aiprogenitor.com",
         "alexandria.codes",
+        "allesoprood.com",
         "alliancewe.us",
         "alphadev.online",
         "ambassadorwe.us",
@@ -640,6 +639,7 @@
         "devib.site",
         "devletgirisimcidestekleri.com",
         "devox.site",
+        "dewahkb.net",
         "dfind.online",
         "dikydik.com",
         "dint.site",
@@ -1045,7 +1045,7 @@
     },
     {
       "service": "tempmail",
-      "domain_count": 1301,
+      "domain_count": 1305,
       "domains": [
         "0-mail.com",
         "000476.com",
@@ -1364,6 +1364,7 @@
         "dudscc.sbs",
         "dugmail.com",
         "dulichdatlanh.com",
+        "dulichdatlanh.vn",
         "dummie.com",
         "dummymails.cc",
         "dumonyal.biz.id",
@@ -1371,7 +1372,6 @@
         "dustreaming.info",
         "dzagi.site",
         "e-mail.cafe",
-        "ease.es",
         "easy-mail.top",
         "easymail.digital",
         "easyrecipetoday.com",
@@ -1458,6 +1458,7 @@
         "freeinbox.email",
         "freemailnow.net",
         "freetmail.net",
+        "fresh91.casino",
         "fridaypzy.com",
         "frre.com",
         "ft.newyourlife.com",
@@ -1606,7 +1607,6 @@
         "inwagit.com",
         "ioemail.win",
         "ione.com",
-        "ionq.pl",
         "iotf.net",
         "iotu.de.vipqq.eu.org",
         "ipackagetours.com",
@@ -1641,6 +1641,7 @@
         "jyzaustin.com",
         "kaaner.com",
         "kamu-sudahh.top",
+        "karamelbilisim.com",
         "kartvelo.me",
         "kaynlab.com",
         "kazelink.ml",
@@ -1681,6 +1682,7 @@
         "lazymail.win",
         "leadingway.com",
         "leeching.net",
+        "leoandassoc.com",
         "leviosaa.store",
         "lexi.rocks",
         "lihe555.com",
@@ -1700,6 +1702,7 @@
         "lolllipop.stream",
         "lonegarden.top",
         "lookup.com",
+        "loudment.com",
         "loveandotherstuff.co",
         "lovefans.com",
         "lovelynhatrang.ru",
@@ -1786,6 +1789,7 @@
         "mobilebankapp.org",
         "mobilerealty.net",
         "mobiletracker.com",
+        "mockata.net",
         "modernembrace.com",
         "modz.store",
         "moeapp.com",
@@ -2345,8 +2349,8 @@
         "zooants.com",
         "zooape.net",
         "zoofood.org",
+        "zoutoutou.com",
         "zpqvdc.com",
-        "ztjspeakmn.com",
         "zuvio.com"
       ]
     },
