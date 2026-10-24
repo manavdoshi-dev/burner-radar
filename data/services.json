@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T10:14:34.295666+00:00",
+  "generated_at": "2026-10-24T09:43:32.359640+00:00",
   "services": [
     {
       "service": "10minutemail",
@@ -10,7 +10,7 @@
     },
     {
       "service": "anonymbox",
-      "domain_count": 158,
+      "domain_count": 160,
       "domains": [
         "10minutemail.de",
         "129.in",
@@ -84,6 +84,7 @@
         "icx.in",
         "ifile.com",
         "imaginged.com",
+        "isgre.at",
         "jhptraining.com",
         "kabbala.com",
         "koin-qq.top",
@@ -109,6 +110,7 @@
         "nonewanimallab.com",
         "notmail.com",
         "onedonation.com",
+        "onespeles.ru",
         "onestopwv.com",
         "openinboxexperiment.com",
         "optonlinr.net",
@@ -496,7 +498,7 @@
     },
     {
       "service": "owlymail",
-      "domain_count": 475,
+      "domain_count": 474,
       "domains": [
         "0sp.me",
         "0xmiikee.com",
@@ -527,7 +529,6 @@
         "ambassadorwe.us",
         "ambilqq.com",
         "amoksystems.com",
-        "ample.run",
         "anappthat.com",
         "ander.us",
         "angeliki.org",
@@ -1046,7 +1047,7 @@
     },
     {
       "service": "tempmail",
-      "domain_count": 1313,
+      "domain_count": 1312,
       "domains": [
         "0-mail.com",
         "000476.com",
@@ -1571,6 +1572,7 @@
         "howtoelope.com",
         "httpsgreenwichmeantime.in",
         "hypenated-domain.com",
+        "hyproxy.lol",
         "i054egtx083f8mb.xyz",
         "iccmail.men",
         "iceans.cc.cd",
@@ -1650,7 +1652,6 @@
         "kewkece.com",
         "khoastore.net",
         "khujenao.net",
-        "kiecchn.com",
         "kil.it",
         "killyourtime.com",
         "kindleebs.xyz",
@@ -1874,7 +1875,6 @@
         "nwldx.com",
         "nxdbxd.top",
         "nya365.com",
-        "nyalist.com",
         "oaudienceij.com",
         "oceva.site",
         "odorable.net",
@@ -2082,7 +2082,6 @@
         "smtp.giessdorf.eu.org",
         "smykwb.com",
         "snakebutt.com",
-        "sns.moe",
         "snx7rm3ba.web.id",
         "so1ffy.online",
         "socksbest.com",
@@ -2156,6 +2155,7 @@
         "temp-mail.now",
         "temp-mail.org",
         "temp2.club",
+        "tempmail.au",
         "tempmail.co",
         "tempmail.com",
         "tempmail.digital",
@@ -2165,6 +2165,7 @@
         "tempmail101.com",
         "tempmailer.net",
         "tempmailin.com",
+        "tempmailnow.io",
         "tempomail.org",
         "temporam.com",
         "temporaremail.com",
@@ -2358,7 +2359,6 @@
         "zooants.com",
         "zooape.net",
         "zoofood.org",
-        "zoutoutou.com",
         "zpqvdc.com",
         "zuvio.com"
       ]
