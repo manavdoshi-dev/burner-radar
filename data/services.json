@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T10:00:06.196813+00:00",
+  "generated_at": "2026-10-26T11:18:55.125785+00:00",
   "services": [
     {
       "service": "10minutemail",
@@ -10,7 +10,7 @@
     },
     {
       "service": "anonymbox",
-      "domain_count": 158,
+      "domain_count": 159,
       "domains": [
         "10minutemail.de",
         "129.in",
@@ -84,6 +84,7 @@
         "icx.in",
         "ifile.com",
         "imaginged.com",
+        "isgre.at",
         "jhptraining.com",
         "kabbala.com",
         "koin-qq.top",
@@ -1046,7 +1047,7 @@
     },
     {
       "service": "tempmail",
-      "domain_count": 1318,
+      "domain_count": 1314,
       "domains": [
         "0-mail.com",
         "000476.com",
@@ -1223,7 +1224,6 @@
         "cappacutpro.icu",
         "caqcut.top",
         "care4palestine.web.id",
-        "carehp.com",
         "carhireok.com",
         "cashflow35.com",
         "casinoohnedeutschelizenz.net",
@@ -1254,7 +1254,6 @@
         "clendere.asia",
         "clonenpa.com",
         "cloudpush.com",
-        "cloudyourfast.net",
         "clousy.site",
         "club106.org.uk",
         "clue-1.com",
@@ -1329,6 +1328,7 @@
         "digibeast.my",
         "digibeast.store",
         "digitalsolutionsdaraz.com",
+        "dikybuyerj.com",
         "dingbat.com",
         "dipzstore.net",
         "direct.ditchly.com",
@@ -1706,6 +1706,7 @@
         "lonegarden.top",
         "lookup.com",
         "loudment.com",
+        "love889.com",
         "loveandotherstuff.co",
         "lovefans.com",
         "lovelynhatrang.ru",
@@ -1725,7 +1726,6 @@
         "mac-24.com",
         "machineearning.com",
         "magentaguide.com",
-        "magnumbet.xyz",
         "mail-2-you.com",
         "mail-burn.com",
         "mail-hub.info",
@@ -1957,7 +1957,6 @@
         "privatdemail.net",
         "profonmail.com",
         "projectcl.com",
-        "proveity.com",
         "proxy-gateway.net",
         "prp-ppdt.app",
         "psh.me",
@@ -1973,7 +1972,6 @@
         "qaoloty.com",
         "qnlburied.com",
         "qofocused.com",
-        "qsuo.uno",
         "quangvps.com",
         "quixoticals.com",
         "quyinvis.net",
@@ -2092,7 +2090,6 @@
         "so1ffy.online",
         "socksbest.com",
         "softbank.id",
-        "solerbe.net",
         "soycasero.com",
         "spaceepics.com",
         "spam.la",
@@ -2198,6 +2195,7 @@
         "tianmi.me",
         "tienao.org",
         "tijdelijke-email.nl",
+        "timetotv.com",
         "tinkergigi.bond",
         "tinyworld.com",
         "titz.com",
@@ -2287,7 +2285,6 @@
         "wayszo.com",
         "wayza.com",
         "webaz.xyz",
-        "webgmail.info",
         "webmail24.top",
         "webuser.in",
         "welljimer.online",
@@ -2370,8 +2367,9 @@
     },
     {
       "service": "tempr",
-      "domain_count": 37,
+      "domain_count": 38,
       "domains": [
+        "0815.ru",
         "1mail.x24hr.com",
         "23.8.dnsabr.com",
         "8.dnsabr.com",
