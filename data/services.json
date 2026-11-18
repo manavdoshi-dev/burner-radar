@@ -1,12 +1,13 @@
 {
-  "generated_at": "2026-11-17T14:37:59.085630+00:00",
+  "generated_at": "2026-11-18T14:11:18.521439+00:00",
   "services": [
     {
       "service": "anonymbox",
-      "domain_count": 153,
+      "domain_count": 154,
       "domains": [
         "10minutemail.de",
         "129.in",
+        "2br.in",
         "3dsculpter.com",
         "3dsculpter.net",
         "69postix.info",
@@ -236,7 +237,7 @@
     },
     {
       "service": "mailinator",
-      "domain_count": 207,
+      "domain_count": 206,
       "domains": [
         "00.pe",
         "183carlton.changeip.net",
@@ -316,7 +317,6 @@
         "informationispower.co.uk",
         "ioio.eu",
         "ironiebehindert.de",
-        "j-p.us",
         "j.fairuse.org",
         "jama.trenet.eu",
         "janvan.gent",
@@ -478,7 +478,7 @@
     },
     {
       "service": "owlymail",
-      "domain_count": 469,
+      "domain_count": 471,
       "domains": [
         "0sp.me",
         "0xmiikee.com",
@@ -808,6 +808,7 @@
         "penis.computer",
         "pennybank.org",
         "peterung.com",
+        "petsfirst.info",
         "petuh.org",
         "phoenixquote.com",
         "planyourwed.com",
@@ -901,6 +902,7 @@
         "toomail.biz",
         "topbahissiteleri.com",
         "topjuju.com",
+        "torrentclub.online",
         "trashinbox.com",
         "tritunggalmail.com",
         "trybookr.com",
@@ -1022,7 +1024,7 @@
     },
     {
       "service": "tempmail",
-      "domain_count": 1351,
+      "domain_count": 1352,
       "domains": [
         "0-mail.com",
         "000476.com",
@@ -1110,7 +1112,6 @@
         "anjay.id",
         "ano2.co.uk",
         "anticonsumer.org",
-        "anyance.com",
         "aophong.org",
         "appie.com",
         "applegift.xyz",
@@ -1464,6 +1465,7 @@
         "garasikita.pw",
         "gastroconsultantsqc.com",
         "gastructuralengineering.com",
+        "gaumontleblanc.com",
         "gbmail.top",
         "gbouquete.com",
         "genzmaile.com",
@@ -1746,7 +1748,6 @@
         "mailku.live",
         "maillii.click",
         "mailna.biz",
-        "mailngon.top",
         "mailorderbridesreviews.com",
         "mailox.biz",
         "mailpingback.com",
@@ -1875,6 +1876,7 @@
         "notice-cellphone.club",
         "nowhere.org",
         "nthanthe.shop",
+        "nurdea.com",
         "nutritionzone.net",
         "nvce.net",
         "nvhrw.com",
@@ -1933,6 +1935,7 @@
         "phulkari.online",
         "pickleballminnesota.com",
         "pig.pp.ua",
+        "pijanify.my",
         "pinevalleyspeed.com",
         "pipecutting.com",
         "pixelcomparison.com",
@@ -2472,7 +2475,7 @@
     },
     {
       "service": "yopmail",
-      "domain_count": 97,
+      "domain_count": 96,
       "domains": [
         "0cd.cn",
         "adgloselche.esmtp.biz",
@@ -2519,7 +2522,6 @@
         "mortmesttesre.wikaba.com",
         "mottel.fr",
         "mymaildo.kro.kr",
-        "netven.site",
         "noreply.fr",
         "parleasalwebp.zyns.com",
         "phmail.site",
